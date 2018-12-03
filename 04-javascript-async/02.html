@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>02 - GitHub repositories by user</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+
+<body>
+  <div>
+    <label for="user">Usuário do GitHub</label>
+    <input type="text" id="user" name="user">
+    <button onclick="renderRepositoriesByUser()">Buscar</button>
+  </div>
+  <div>
+    <ul></ul>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="scripts/02.js"></script>
+</body>
+
+</html>
